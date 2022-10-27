@@ -1,4 +1,4 @@
-package com.starter;
+package com.hamilton;
 
 public class Main {
 
