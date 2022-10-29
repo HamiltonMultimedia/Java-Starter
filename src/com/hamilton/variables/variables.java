@@ -12,10 +12,11 @@ public class variables {
     }
     public static void wholeNumbers(String[] args) {
         // Types of whole numbers
+        // Use underscores for visualization
         byte theByte = -128;
-        short theShort = 8989;
-        int theInt = 787838334;
-        long theLong = 78783833432L;
+        short theShort = 8_989; // 8 Thousand
+        int theInt = 787_838_334; // 787 Million
+        long theLong = 78_783_833_432L; // 78 Billion
 
         System.out.println(theByte);
         System.out.println(theShort);
