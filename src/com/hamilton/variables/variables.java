@@ -47,6 +47,11 @@ public class variables {
         String name = new String("Hamilton");
         // Method chain example
         System.out.println(name.toUpperCase());
+
+        LocalDate now = LocalDate.now();
+        // 2022-10-28
+        System.out.println(now.getMonth());
+        // OCTOBER
     }
 
 
