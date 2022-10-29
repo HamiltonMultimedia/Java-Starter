@@ -9,11 +9,18 @@ public class variables {
         double Number = 100.01;
         String brand = "Hamilton Multimedia";
         Date date = new Date();
-    }public static void numbers(String[] args) {
+    }
+    public static void wholeNumbers(String[] args) {
         // Types of whole numbers
         byte theByte = -128;
         short theShort = 8989;
         int theInt = 787838334;
         long theLong = 78783833432L;
     }
+    public static void fractions(String[] args) {
+        // Types of fraction numbers
+        float pi = 3.14F;
+        double doublePi = 3.14159;
+    }
+    
 }
