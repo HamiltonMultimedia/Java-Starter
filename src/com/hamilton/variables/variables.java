@@ -22,5 +22,9 @@ public class variables {
         float pi = 3.14F;
         double doublePi = 3.14159;
     }
-    
+    public static void otherUnions(String[] args) {
+        // Types of union variables
+        boolean isAdult = true;
+        char nameInitial = 'A';
+    }
 }
