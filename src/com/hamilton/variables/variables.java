@@ -16,15 +16,29 @@ public class variables {
         short theShort = 8989;
         int theInt = 787838334;
         long theLong = 78783833432L;
+
+        System.out.println(theByte);
+        System.out.println(theShort);
+        System.out.println(theInt);
+        System.out.println(theLong);
     }
     public static void fractions(String[] args) {
         // Types of fraction numbers
         float pi = 3.14F;
         double doublePi = 3.14159;
+
+        System.out.println(pi);
+        System.out.println(doublePi);
     }
     public static void otherUnions(String[] args) {
         // Types of union variables
         boolean isAdult = true;
         char nameInitial = 'A';
+
+        System.out.println(isAdult);
+        System.out.println(nameInitial);
     }
+
+
+
 }
