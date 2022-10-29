@@ -9,5 +9,11 @@ public class variables {
         double Number = 100.01;
         String brand = "Hamilton Multimedia";
         Date date = new Date();
+    }public static void numbers(String[] args) {
+        // Types of whole numbers
+        byte theByte = -128;
+        short theShort = 8989;
+        int theInt = 787838334;
+        long theLong = 78783833432L;
     }
 }
