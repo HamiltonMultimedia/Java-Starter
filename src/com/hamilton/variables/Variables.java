@@ -3,7 +3,7 @@ package com.hamilton.variables;
 import java.time.LocalDate;
 import java.util.Date;
 
-public class variables {
+public class Variables {
     public static void main(String[] args) {
         // Types of variables
         int number = 100;
