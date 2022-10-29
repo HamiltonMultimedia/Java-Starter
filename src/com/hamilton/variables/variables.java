@@ -1,5 +1,6 @@
 package com.hamilton.variables;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 public class variables {
@@ -38,6 +39,14 @@ public class variables {
 
         System.out.println(isAdult);
         System.out.println(nameInitial);
+    }
+    public static void nonPrimitives(String[] args) {
+        // Non-primitive data types AKA reference types
+        // They always start with a capital letter
+        // Attributes and methods can be chained using dot notation
+        String name = new String("Hamilton");
+        // Method chain example
+        System.out.println(name.toUpperCase());
     }
 
 

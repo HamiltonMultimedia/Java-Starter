@@ -1,5 +1,5 @@
 package com.hamilton.seconds;
 
-public class nextClass {
+public class LocalDate {
     // Code this class
 }
