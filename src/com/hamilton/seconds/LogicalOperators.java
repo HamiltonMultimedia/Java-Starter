@@ -15,6 +15,9 @@ public class LogicalOperators {
         System.out.println((!isAdult || isStudent) && !isHamiltonMediaMember);
         System.out.println(!isAdult);
         String name = "Terence";
-        System.out.println(10 > 8 || 2 <= 2 && isAdult && name.contains("T"));
+        System.out.println(
+                (10 > 8 || 2 <= 2)
+                        && isAdult
+                        && name.contains("T"));
     }
 }
