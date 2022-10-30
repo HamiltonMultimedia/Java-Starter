@@ -17,4 +17,11 @@ public class LogicalComparisons {
             System.out.println("I might be close to adult age");
         }
     }
+
+    public static void ternary(String[] args) {
+        // Ternary Operator
+        int age = 18;
+        String message = age >= 18 ? "I am an adult" : "I am not an adult";
+        System.out.println(message);
+    }
 }
