@@ -15,6 +15,7 @@ public class SwitchStatements {
                 System.out.println("Prefer not say");
                 break;
             default:
+                System.out.println("Unknown gender");
         }
     }
 }
