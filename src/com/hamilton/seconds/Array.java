@@ -5,11 +5,12 @@ import java.util.Arrays;
 public class Array {
 
     public static void main(String[] args) {
-        // Arrays
+        // Arrays are used to store multiple values
         int zero = 0;
         int one = 1;
 
         int [] numbers = {2, 0, 1, 4, 100};
+        String [] letters = {"John", "Jill"};
 
         // Arrays can only have the amount of elements it is assigned to hold
 //        int [] numbers = new int[3];
