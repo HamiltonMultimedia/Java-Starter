@@ -19,7 +19,7 @@ public class Array {
 //        numbers[2] = 2;
 //        numbers[3] = 24;
 
-        String [] letters = new String[3];
+        String [] letter = new String[3];
         System.out.println(Arrays.toString(numbers));
         System.out.println(numbers.length);
         System.out.println(Arrays.toString(letters));
