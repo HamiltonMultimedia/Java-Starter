@@ -16,5 +16,10 @@ public class IncrementDecrement {
             System.out.println(numbers[i]);
         }
 
+        // Quick IntelliJ shourtcuts to writing for-loops.
+        // array.for    "for (T item : expression)"
+        // array.fori   "for (int i = 0; i < expr.length; i++)"
+        // array.forr   "for (int i = expr.length-1; i <= 0; i--)"
+
     }
 }
