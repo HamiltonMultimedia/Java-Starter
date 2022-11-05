@@ -11,6 +11,10 @@ public class ClassesAndObjects {
                 "sony",
                 "85mm",
                 true);
+        Lens lensTwo = new Lens(
+                "canon",
+                "50mm",
+                true);
     }
 
     // Defining the Lens class
