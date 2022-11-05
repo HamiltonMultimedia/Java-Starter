@@ -15,6 +15,26 @@ public class ClassesAndObjects {
                 "canon",
                 "50mm",
                 true);
+        Lens lensThree = new Lens(
+                "nikon",
+                "30mm",
+                false);
+
+        System.out.println("Lens 1");
+        System.out.println(lensOne.brand);
+        System.out.println(lensOne.focalLength);
+        System.out.println(lensOne.isPrime);
+        System.out.println("============================");
+        System.out.println("Lens 2");
+        System.out.println(lensTwo.brand);
+        System.out.println(lensTwo.focalLength);
+        System.out.println(lensTwo.isPrime);
+        System.out.println("============================");
+        System.out.println("Lens 3");
+        System.out.println(lensThree.brand);
+        System.out.println(lensThree.focalLength);
+        System.out.println(lensThree.isPrime);
+        System.out.println("============================");
     }
 
     // Defining the Lens class
