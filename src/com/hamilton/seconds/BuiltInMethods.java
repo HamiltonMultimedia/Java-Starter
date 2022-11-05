@@ -1,6 +1,6 @@
 package com.hamilton.seconds;
 
-public class Methods {
+public class BuiltInMethods {
     // Methods only run where they are called
     // They are used to perform some kind of logic
     // Built-in and User-defined are available to be used
