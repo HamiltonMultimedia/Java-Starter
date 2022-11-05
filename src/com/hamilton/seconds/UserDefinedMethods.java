@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class UserDefinedMethods {
 
     public static void main(String[] args) {
-        // Methods
+
         char[] letters = {'A', 'A', 'B', 'C', 'D', 'D', 'D'};
         // Method Invocation or usage, extracted into a variable.
         int count = countOccurrences(letters, 'D');
